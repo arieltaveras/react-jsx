@@ -2,8 +2,9 @@
     border: 1px solid #0072d6;
     box-shadow: 30px -8px #1DA1F2;
     border-radius: 8px;
-    margin: 20px 20%;
+    margin: 80px 20% ;
     padding: 20px;
+    max-width: fit-content;
 }
 
 .username, .date {
@@ -23,3 +24,15 @@
     font-size: x-large;
     font-weight: bold;
 }
+
+img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+}
+
+/* ul, img {
+    position: absolute;
+} */
